@@ -1,0 +1,45 @@
+.navbar_container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+
+    .switch{
+        display: flex;
+        justify-content: center;
+
+        .switch_ul{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            list-style: none;
+
+            a{
+            text-decoration: none;
+               
+            }
+        }
+    }
+
+    .buy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+
+
+         .buy_btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 14px;
+        gap: 60px;
+
+        &:hover{
+            border: 1px solid blue;
+        }
+    }
+    }
+   
+}

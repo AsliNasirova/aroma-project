@@ -1,0 +1,67 @@
+#shopFun {
+    width: 100%;
+
+    .shopFun_container {
+        display: flex;
+        justify-content: center;
+
+        .shopFun_leftArea {
+            width: 40%;
+            height: 100vh;
+            background-color: #007bff;
+            position: relative;
+
+            .shopfun_img {
+                position: absolute;
+                margin-left: 300px;
+                margin-top: 100px;
+
+                img {
+                    width: 450px;
+                }
+            }
+        }
+
+        .shopFun_rightArea {
+            width: 60%;
+            height: 100vh;
+            background-color: #f8f9fa;
+            font-size: 20px;
+
+            .text_shopFun_right {
+                margin-top: 200px;
+                margin-left: 250px;
+                width: 600px;
+            }
+
+            p {
+                color: #6c757d;
+            }
+
+            h4 {
+                font-size: 50px;
+            }
+
+            .shopNow {
+                width: 160px;
+                height: 30px;
+                background-color: #007bff;
+                border: 1px solid #007bff;
+                border-radius: 40px;
+                font-size: 15px;
+                color: #f8f9fa;
+
+                &:hover {
+                    transition: 0.4s;
+                    border: 1px solid #f8f9fa;
+                    color: black;
+
+                }
+            }
+
+
+
+        }
+
+    }
+}

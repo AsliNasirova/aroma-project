@@ -1,0 +1,21 @@
+#latest{
+    margin-top: 20px;
+    .latest_container{ 
+        .card{
+           
+            .text_card{
+                width: 400px;
+                p{
+                    color: grey;
+                }
+                .text_card_down{
+                    width: 300px;
+                }
+            }
+        }
+        .card_container{
+          display: flex;
+          justify-content: center;
+        }
+    }
+}
